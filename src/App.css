@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+  line-height: 5rem;
+  text-align: center;
+}
+
+.box {
+  width: 50vw;
+  height: 20vh;
+  margin: auto;
+  margin-top: 11rem;
+  margin-bottom: auto;
+
+}
+
+/*cambiando todo el tipo de letra en el body*/
+
+body {
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+/*Reduciendo el tamaño de las imágenes*/
+
+.img1 {
+  height: 250px;
+}
+
+.img2 {
+  height: 14px;
+}
+
+/*Dando margenes a los contenedores de las tablas*/
+
+.header h1 {
+  margin-bottom: 3px;
+  margin-top: 0px;
+}
+
+.header hr {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/*width para reducir el ancho, tamaño de letra*/
+
+.biography {
+  width: 80%;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/*Diplay para que solo ocupe su contenido, 
+vertical-align para que suba un poco*/
+
+.summary {
+  display: inline-block;
+  vertical-align: top;
+  width: 30px;
+  margin-top: 15px;
+}
+
+.summary-table {
+  border: 1px solid #a2a9b1;
+  background-color: #f8f9fa;
+  padding: 1px;
+  font-size: 14px;
+}
+
+/*Dando color y relleno a los th*/
+
+.summary-table thead th {
+  background-color: #B0C4DE;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 16px;
+}
+
+/*para que el contenido del tbody de la tabla este centrado*/
+
+.summary-table tbody tr:first-child {
+  text-align: center;
+}
+
+/*para que el contenido del tbody de la tabla este a la izquierda*/
+
+.summary-table tbody th {
+  text-align: left;
+}
