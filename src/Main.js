@@ -1,7 +1,6 @@
-import React, {Component} from 'react';
-import './App.css';
+import React from 'react';
 
-const Main = (() =>{
+const Main = () =>(
   <main className="biography">
   <p>
     <strong>Grace Brewster Murray Hopper (
@@ -64,6 +63,6 @@ const Main = (() =>{
   
   <a href="information.html" target="_blank">see more</a>
 </main>
-});
+)
 
 export default Main;

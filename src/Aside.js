@@ -1,7 +1,6 @@
-import React, {Component} from 'react';
-import './App.css';
+import React from 'react'
 
-const Aside = (() => {
+const Aside = () => (
   <aside className="summary">
 		<table className="summary-table">
 			<thead>
@@ -12,7 +11,7 @@ const Aside = (() => {
 			<tbody>
 				<tr>
 					<td colspan="2">
-						<img className="img1" src="assets/gracehopper.jpg" alt="Grace Hopper"/>
+						<img className="img1" src="assets/img/grace.jpg" alt="Grace Hopper"/>
 						<p>Rear Admiral Grace M. Hopper, 1984</p>
 					</td>
 				</tr>
@@ -31,11 +30,11 @@ const Aside = (() => {
 				<tr>
 					<th>Allegiance</th>
 					<td>
-						<img className="img2" src="assets/eeuu.png"/>United States of America</td>
+						<img className="img2" src="assets/img/eeuu.png"/>United States of America</td>
 				</tr>
 			</tbody>
 		</table>
 	</aside>
-});
+)
 
 export default Aside 
