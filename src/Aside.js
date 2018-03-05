@@ -1,4 +1,6 @@
 import React from 'react'
+import grace from './assets/img/grace.jpg'
+import eeuu from './assets/img/eeuu.png'
 
 const Aside = () => (
   <aside className="summary">
@@ -11,7 +13,7 @@ const Aside = () => (
 			<tbody>
 				<tr>
 					<td colspan="2">
-						<img className="img1" src="assets/img/grace.jpg" alt="Grace Hopper"/>
+						<img className="img1" src={grace} alt="Grace Hopper"/>
 						<p>Rear Admiral Grace M. Hopper, 1984</p>
 					</td>
 				</tr>
@@ -30,7 +32,7 @@ const Aside = () => (
 				<tr>
 					<th>Allegiance</th>
 					<td>
-						<img className="img2" src="assets/img/eeuu.png"/>United States of America</td>
+						<img className="img2" src={eeuu}/>United States of America</td>
 				</tr>
 			</tbody>
 		</table>
